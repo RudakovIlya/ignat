@@ -1,0 +1,25 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 30px;
+}
+
+.messenger {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 56px 0;
+}
+
+.hwTitle {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.hwTitle:not(:last-child) {
+    margin-bottom: 10px;
+}

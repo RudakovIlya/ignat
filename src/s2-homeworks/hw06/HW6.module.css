@@ -1,0 +1,10 @@
+.buttonsContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 15px;
+}
+
+.editableSpanContainer:not(:last-child) {
+    margin-bottom: 24px;
+}

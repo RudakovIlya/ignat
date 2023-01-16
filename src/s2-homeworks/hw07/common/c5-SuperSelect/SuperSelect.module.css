@@ -1,0 +1,17 @@
+
+.select {
+    align-self: flex-start;
+    flex: 0 0 27.8%;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color);
+    background: var(--background);
+    border: 1px solid #C2C2C2;
+    border-radius: 2px;
+}
+
+
+.select:focus {
+    border: 1px solid #C2C2C2;
+}
+

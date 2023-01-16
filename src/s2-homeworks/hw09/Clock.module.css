@@ -1,0 +1,25 @@
+.buttonsContainer {
+    display: inline-flex;
+    column-gap: 21px;
+}
+
+.clock {
+    display: inline-block;
+}
+
+.watch {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color);
+}
+
+.watch:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.more {
+    display: block;
+    font-size: 16px;
+    color: var(--color);
+    opacity: 0.5;
+}

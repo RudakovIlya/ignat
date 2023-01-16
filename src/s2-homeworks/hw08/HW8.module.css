@@ -1,0 +1,42 @@
+.item {
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+}
+
+.item:last-of-type {
+}
+
+.users {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 12px;
+}
+
+.buttonsContainer:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.body {
+    width: 60%;
+}
+
+.thead {
+    background: #E5E5E5;
+    font-weight: 600;
+}
+
+.nameCol {
+    padding: 11px;
+    width: 50%;
+}
+
+.ageCol {
+    font-weight: 600;
+    width: 50%;
+}

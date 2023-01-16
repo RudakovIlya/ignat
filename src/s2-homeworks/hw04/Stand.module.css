@@ -1,0 +1,30 @@
+.stand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    flex: 0 1 372px;
+}
+
+.inputs > div {
+    flex: 0 1 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}

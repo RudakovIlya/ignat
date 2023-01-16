@@ -1,0 +1,5 @@
+.container {
+    padding: 31px 0 202px 0;
+    display: flex;
+    column-gap: 108px;
+}

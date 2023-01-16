@@ -1,0 +1,22 @@
+.spanBlock {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.spanBlock > * {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.span {
+    color: #0080FF;
+}
+
+.input {
+    color: #000000;
+}
+
+.pen {
+}
