@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ignat/static/css/main.0c25c85c.css",
-    "main.js": "/ignat/static/js/main.a57ff166.js",
-    "static/media/200.svg": "/ignat/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
-    "static/media/error.svg": "/ignat/static/media/error.5a3135f381b00b53044eff200e725391.svg",
-    "static/media/500.svg": "/ignat/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
-    "static/media/400.svg": "/ignat/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
-    "static/media/404.svg": "/ignat/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
-    "static/media/closeOutline.svg": "/ignat/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
-    "static/media/editIcon.svg": "/ignat/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
-    "static/media/checked.svg": "/ignat/static/media/checked.b75ca55e8759862b4083.svg",
+    "main.css": "/ignat/static/css/main.93009f85.css",
+    "main.js": "/ignat/static/js/main.32abe931.js",
+    "static/media/200.svg": "/ignat/static/media/200.6674284d639984b4086f686e38d600f6.svg",
+    "static/media/error.svg": "/ignat/static/media/error.5ba54f26a714a4fd3553906d1887a547.svg",
+    "static/media/500.svg": "/ignat/static/media/500.7cd806a423dda1f9540322e7fcb61b5b.svg",
+    "static/media/400.svg": "/ignat/static/media/400.60800eb3f999bdcb9235b0a68659f9bb.svg",
+    "static/media/404.svg": "/ignat/static/media/404.91f67d882ab35bb56d21b68ffc60ac45.svg",
+    "static/media/closeOutline.svg": "/ignat/static/media/closeOutline.e03cfa11c580dc47a47b1d2c4bc194bb.svg",
+    "static/media/editIcon.svg": "/ignat/static/media/editIcon.952acf93e56992f8537202ebd81ff051.svg",
+    "static/media/checked.svg": "/ignat/static/media/checked.a83e199a147c74362130.svg",
     "index.html": "/ignat/index.html",
-    "static/media/burger.svg": "/ignat/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.0c25c85c.css.map": "/ignat/static/css/main.0c25c85c.css.map",
-    "main.a57ff166.js.map": "/ignat/static/js/main.a57ff166.js.map"
+    "static/media/burger.svg": "/ignat/static/media/burger.495698a8f86ace95726267d1a147dca0.svg",
+    "main.93009f85.css.map": "/ignat/static/css/main.93009f85.css.map",
+    "main.32abe931.js.map": "/ignat/static/js/main.32abe931.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c25c85c.css",
-    "static/js/main.a57ff166.js"
+    "static/css/main.93009f85.css",
+    "static/js/main.32abe931.js"
   ]
 }
