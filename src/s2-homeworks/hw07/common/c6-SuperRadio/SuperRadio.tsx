@@ -1,9 +1,4 @@
-import React, {
-    ChangeEvent,
-    InputHTMLAttributes,
-    DetailedHTMLProps,
-    HTMLAttributes,
-} from 'react'
+import React, {ChangeEvent, DetailedHTMLProps, HTMLAttributes, InputHTMLAttributes,} from 'react'
 import s from './SuperRadio.module.css'
 import {ValueType} from "../../HW7";
 

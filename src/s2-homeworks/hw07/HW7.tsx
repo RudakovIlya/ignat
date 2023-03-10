@@ -16,7 +16,7 @@ export type ValueType = {
     value: string
 }
 
-const arr: ValueType[] = [
+const arr: any[] = [
     {id: 1, value: 'Pre-junior'},
     {id: 2, value: 'Junior'},
     {id: 3, value: 'Junior-Plus'},

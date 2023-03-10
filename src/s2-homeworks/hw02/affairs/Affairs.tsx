@@ -1,4 +1,4 @@
-import React, {MouseEvent} from 'react'
+import React from 'react'
 import Affair from './affair/Affair'
 import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
@@ -12,10 +12,6 @@ type AffairsPropsType = {
 }
 
 function Affairs(props: AffairsPropsType) {
-
-    const set = (event: MouseEvent<HTMLButtonElement>) => {
-        props.setFilter(event.currentTarget.value as FilterType);
-    }
 
     const mappedAffairs = props.data.map((a: AffairType) => (
         <Affair
@@ -36,19 +32,22 @@ function Affairs(props: AffairsPropsType) {
 
     const [div] = useAutoAnimate<HTMLDivElement>()
 
+    const setFilter = (filter: FilterType) => () => props.setFilter(filter)
+
     return (
         <div>
             <div className={s.buttonContainer}>
-                <button value={ALL} id={'hw2-button-all'} onClick={set} className={setClass(ALL)}>
+                <button value={ALL} id={'hw2-button-all'} onClick={setFilter('all')} className={setClass(ALL)}>
                     All
                 </button>
-                <button value={HIGH} id={'hw2-button-high'} onClick={set} className={setClass(HIGH)}>
+                <button value={HIGH} id={'hw2-button-high'} onClick={setFilter('high')} className={setClass(HIGH)}>
                     High
                 </button>
-                <button value={MIDDLE} id={'hw2-button-middle'} onClick={set} className={setClass(MIDDLE)}>
+                <button value={MIDDLE} id={'hw2-button-middle'} onClick={setFilter('middle')}
+                        className={setClass(MIDDLE)}>
                     Middle
                 </button>
-                <button value={LOW} id={'hw2-button-low'} onClick={set} className={setClass(LOW)}>
+                <button value={LOW} id={'hw2-button-low'} onClick={setFilter('low')} className={setClass(LOW)}>
                     Low
                 </button>
             </div>
